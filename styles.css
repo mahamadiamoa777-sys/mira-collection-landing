@@ -3,15 +3,16 @@
    =========================== */
 
 :root {
-    --primary-color: #1877f2;
-    --secondary-color: #e7f3ff;
-    --accent-color: #25a745;
-    --dark-color: #1c1e21;
-    --light-color: #f0f2f5;
-    --text-color: #65676b;
-    --border-color: #ccc;
-    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.15);
+    /* Colors inspired by Mira Collection Logo */
+    --primary-color: #4a9b8e;      /* Teal/Turquoise */
+    --secondary-color: #f5f1e8;    /* Cream/Beige */
+    --accent-color: #d97e5f;       /* Coral/Orange */
+    --dark-brown: #6b4423;         /* Dark Brown */
+    --light-color: #faf8f5;        /* Light Cream */
+    --text-color: #3d3d3d;         /* Dark Gray */
+    --border-color: #d4cfc5;       /* Light Brown */
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
 * {
@@ -43,7 +44,7 @@ body {
 
 .navbar {
     background: #fff;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--primary-color);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -67,15 +68,17 @@ body {
 }
 
 .logo-img {
-    height: 50px;
+    height: 60px;
     width: auto;
-    max-width: 200px;
+    max-width: 250px;
     object-fit: contain;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
 }
 
 .logo-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
 }
 
 .logo i {
@@ -162,9 +165,9 @@ html[dir="ltr"] .language-selector {
 }
 
 .whatsapp-btn:hover {
-    background: #20c997;
+    background: #c76d4f;
     transform: translateY(-2px);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-lg);
 }
 
 /* ===========================
@@ -172,7 +175,7 @@ html[dir="ltr"] .language-selector {
    =========================== */
 
 .hero {
-    background: linear-gradient(135deg, var(--secondary-color) 0%, #fff 100%);
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--light-color) 100%);
     padding: 80px 0;
     margin-bottom: 60px;
 }
@@ -186,7 +189,7 @@ html[dir="ltr"] .language-selector {
 
 .hero-text h1 {
     font-size: 48px;
-    color: var(--dark-color);
+    color: var(--dark-brown);
     margin-bottom: 16px;
     font-weight: 700;
 }
@@ -232,7 +235,7 @@ html[dir="ltr"] .language-selector {
 }
 
 .btn-primary:hover {
-    background: #0a66c2;
+    background: #3a8b7e;
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
 }
@@ -369,7 +372,7 @@ html[dir="ltr"] .language-selector {
 }
 
 .info-card h4 {
-    color: var(--dark-color);
+    color: var(--dark-brown);
     margin-bottom: 8px;
     font-size: 16px;
 }
@@ -415,7 +418,7 @@ html[dir="ltr"] .language-selector {
 
 .service-card h3 {
     font-size: 18px;
-    color: var(--dark-color);
+    color: var(--dark-brown);
     margin-bottom: 12px;
     font-weight: 600;
 }
@@ -432,7 +435,7 @@ html[dir="ltr"] .language-selector {
 
 .gallery {
     padding: 80px 0;
-    background: #f9f9f9;
+    background: var(--light-color);
 }
 
 .gallery-grid {
@@ -620,7 +623,7 @@ html[dir="ltr"] .language-selector {
 }
 
 .social-icons a:hover {
-    background: #0a66c2;
+    background: #3a8b7e;
     transform: translateY(-4px);
 }
 
@@ -642,7 +645,7 @@ html[dir="ltr"] .language-selector {
 .form-group label {
     display: block;
     margin-bottom: 8px;
-    color: var(--dark-color);
+    color: var(--dark-brown);
     font-weight: 600;
     font-size: 14px;
 }
@@ -664,7 +667,7 @@ html[dir="ltr"] .language-selector {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(24, 119, 242, 0.1);
+    box-shadow: 0 0 0 3px rgba(74, 155, 142, 0.1);
 }
 
 .form-group textarea {
@@ -681,7 +684,7 @@ html[dir="ltr"] .language-selector {
    =========================== */
 
 .footer {
-    background: var(--dark-color);
+    background: var(--dark-brown);
     color: #e4e6eb;
     padding: 48px 0 24px;
 }
