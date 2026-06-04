@@ -66,6 +66,18 @@ body {
     color: var(--primary-color);
 }
 
+.logo-img {
+    height: 50px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
+}
+
 .logo i {
     font-size: 24px;
 }
