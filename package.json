@@ -1,0 +1,16 @@
+{
+  "name": "mira-collection-landing",
+  "version": "1.0.0",
+  "description": "Landing page for Mira Collection - Children's clothing wholesale",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["mira", "collection", "landing", "children", "clothing"],
+  "author": "Mira Collection",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  }
+}
