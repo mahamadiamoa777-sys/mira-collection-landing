@@ -88,6 +88,49 @@ body {
     color: var(--primary-color);
 }
 
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.language-selector {
+    display: flex;
+    gap: 8px;
+    border-right: 1px solid var(--border-color);
+    padding-right: 20px;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.lang-btn.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+html[dir="ltr"] .language-selector {
+    border-right: none;
+    border-left: 1px solid var(--border-color);
+    padding-right: 0;
+    padding-left: 20px;
+}
+
 .contact-quick {
     display: flex;
     gap: 10px;

@@ -17,15 +17,20 @@
                     <span>Mira Collection</span>
                 </div>
                 <nav class="nav-links">
-                    <a href="#about">عن العلامة</a>
-                    <a href="#services">الخدمات</a>
-                    <a href="#gallery">المعرض</a>
-                    <a href="#testimonials">آراء العملاء</a>
-                    <a href="#contact">اتصل بنا</a>
+                    <a href="#about" data-i18n="about">عن العلامة</a>
+                    <a href="#services" data-i18n="services">الخدمات</a>
+                    <a href="#gallery" data-i18n="gallery">المعرض</a>
+                    <a href="#testimonials" data-i18n="testimonials">آراء العملاء</a>
+                    <a href="#contact" data-i18n="contact">اتصل بنا</a>
                 </nav>
-                <div class="contact-quick">
+                <div class="navbar-right">
+                    <div class="language-selector">
+                        <button class="lang-btn active" onclick="setLanguage('ar')">العربية</button>
+                        <button class="lang-btn" onclick="setLanguage('en')">English</button>
+                        <button class="lang-btn" onclick="setLanguage('fr')">Français</button>
+                    </div>
                     <a href="https://wa.me/905349660548" class="whatsapp-btn" target="_blank">
-                        <i class="fab fa-whatsapp"></i> WhatsApp
+                        <i class="fab fa-whatsapp"></i> <span data-i18n="whatsapp">WhatsApp</span>
                     </a>
                 </div>
             </div>
@@ -36,25 +41,25 @@
     <section class="hero">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>مجموعة ميرا</h1>
-                <p class="subtitle">ملابس أطفال بالجملة بأفضل الأسعار والجودة</p>
-                <p class="description">متخصصون في توفير ملابس أطفال عالية الجودة للبيع بالجملة من تركيا مباشرة</p>
+                <h1 data-i18n="heroTitle">مجموعة ميرا</h1>
+                <p class="subtitle" data-i18n="heroSubtitle">ملابس أطفال بالجملة بأفضل الأسعار والجودة</p>
+                <p class="description" data-i18n="heroDescription">متخصصون في توفير ملابس أطفال عالية الجودة للبيع بالجملة من تركيا مباشرة</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">اطلب الآن</a>
-                    <a href="#gallery" class="btn btn-secondary">عرض المنتجات</a>
+                    <a href="#contact" class="btn btn-primary" data-i18n="orderNow">اطلب الآن</a>
+                    <a href="#gallery" class="btn btn-secondary" data-i18n="viewProducts">عرض المنتجات</a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
                         <span class="stat-number">21K+</span>
-                        <span class="stat-label">متابع</span>
+                        <span class="stat-label" data-i18n="followers">متابع</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number">100%</span>
-                        <span class="stat-label">جودة مضمونة</span>
+                        <span class="stat-label" data-i18n="quality">جودة مضمونة</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number">24/7</span>
-                        <span class="stat-label">دعم عملاء</span>
+                        <span class="stat-label" data-i18n="support">دعم عملاء</span>
                     </div>
                 </div>
             </div>
@@ -69,45 +74,45 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">قصة العلامة التجارية</h2>
+            <h2 class="section-title" data-i18n="aboutTitle">قصة العلامة التجارية</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>من نحن؟</h3>
-                    <p>مجموعة ميرا هي متخصصة في توفير ملابس أطفال عالية الجودة بأسعار تنافسية للبيع بالجملة. نعمل مباشرة مع أفضل المصانع في تركيا لضمان أفضل جودة وأسعار.</p>
-                    <p>نؤمن بأهمية توفير ملابس آمنة وجميلة للأطفال، لذلك نختار كل منتج بعناية فائقة.</p>
+                    <h3 data-i18n="whoAre">من نحن؟</h3>
+                    <p data-i18n="aboutText">مجموعة ميرا هي متخصصة في توفير ملابس أطفال عالية الجودة بأسعار تنافسية للبيع بالجملة. نعمل مباشرة مع أفضل المصانع في تركيا لضمان أفضل جودة وأسعار.</p>
+                    <p data-i18n="aboutText2">نؤمن بأهمية توفير ملابس آمنة وجميلة للأطفال، لذلك نختار كل منتج بعناية فائقة.</p>
                     <div class="features">
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
-                            <span>منتجات أصلية من تركيا</span>
+                            <span data-i18n="originalProducts">منتجات أصلية من تركيا</span>
                         </div>
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
-                            <span>أسعار جملة منخفضة</span>
+                            <span data-i18n="wholesalePrices">أسعار جملة منخفضة</span>
                         </div>
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
-                            <span>توصيل سريع وآمن</span>
+                            <span data-i18n="fastShipping">توصيل سريع وآمن</span>
                         </div>
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
-                            <span>ضمان الجودة 100%</span>
+                            <span data-i18n="qualityGuarantee">ضمان الجودة 100%</span>
                         </div>
                     </div>
                 </div>
                 <div class="about-info">
                     <div class="info-card">
                         <i class="fas fa-map-marker-alt"></i>
-                        <h4>الموقع</h4>
-                        <p>اسطنبول، تركيا</p>
+                        <h4 data-i18n="location">الموقع</h4>
+                        <p data-i18n="istanbul">اسطنبول، تركيا</p>
                     </div>
                     <div class="info-card">
                         <i class="fas fa-phone"></i>
-                        <h4>الهاتف</h4>
+                        <h4 data-i18n="phone">الهاتف</h4>
                         <p>+90 534 966 05 48</p>
                     </div>
                     <div class="info-card">
                         <i class="fas fa-envelope"></i>
-                        <h4>البريد الإلكتروني</h4>
+                        <h4 data-i18n="email">البريد الإلكتروني</h4>
                         <p>miracollection777@gmail.com</p>
                     </div>
                 </div>
@@ -118,49 +123,49 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">خدماتنا المميزة</h2>
+            <h2 class="section-title" data-i18n="servicesTitle">خدماتنا المميزة</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-box"></i>
                     </div>
-                    <h3>تنوع المنتجات</h3>
-                    <p>مجموعة واسعة من ملابس الأطفال بمختلف الأحجام والألوان والتصاميم الحديثة</p>
+                    <h3 data-i18n="productDiversity">تنوع المنتجات</h3>
+                    <p data-i18n="productDiversityDesc">مجموعة واسعة من ملابس الأطفال بمختلف الأحجام والألوان والتصاميم الحديثة</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-dollar-sign"></i>
                     </div>
-                    <h3>أسعار تنافسية</h3>
-                    <p>أفضل أسعار الجملة في السوق مع ضمان جودة عالية وعدم المساومة على المعايير</p>
+                    <h3 data-i18n="competitivePrices">أسعار تنافسية</h3>
+                    <p data-i18n="competitivePricesDesc">أفضل أسعار الجملة في السوق مع ضمان جودة عالية وعدم المساومة على المعايير</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-shipping-fast"></i>
                     </div>
-                    <h3>توصيل سريع</h3>
-                    <p>شحن آمن وسريع إلى جميع أنحاء العالم مع تتبع الطلبات في الوقت الفعلي</p>
+                    <h3 data-i18n="fastDelivery">توصيل سريع</h3>
+                    <p data-i18n="fastDeliveryDesc">شحن آمن وسريع إلى جميع أنحاء العالم مع تتبع الطلبات في الوقت الفعلي</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-headset"></i>
                     </div>
-                    <h3>دعم عملاء متميز</h3>
-                    <p>فريق دعم متاح 24/7 للإجابة على جميع استفساراتك وحل مشاكلك بسرعة</p>
+                    <h3 data-i18n="excellentSupport">دعم عملاء متميز</h3>
+                    <p data-i18n="excellentSupportDesc">فريق دعم متاح 24/7 للإجابة على جميع استفساراتك وحل مشاكلك بسرعة</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-certificate"></i>
                     </div>
-                    <h3>ضمان الجودة</h3>
-                    <p>كل منتج يتم فحصه بعناية قبل الشحن لضمان رضاك التام</p>
+                    <h3 data-i18n="qualityAssurance">ضمان الجودة</h3>
+                    <p data-i18n="qualityAssuranceDesc">كل منتج يتم فحصه بعناية قبل الشحن لضمان رضاك التام</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-handshake"></i>
                     </div>
-                    <h3>شراكات موثوقة</h3>
-                    <p>نعمل مع أفضل المصانع والموردين لضمان أفضل جودة وأسعار</p>
+                    <h3 data-i18n="reliablePartnerships">شراكات موثوقة</h3>
+                    <p data-i18n="reliablePartnershipsDesc">نعمل مع أفضل المصانع والموردين لضمان أفضل جودة وأسعار</p>
                 </div>
             </div>
         </div>
@@ -169,43 +174,43 @@
     <!-- Gallery Section -->
     <section id="gallery" class="gallery">
         <div class="container">
-            <h2 class="section-title">معرض المنتجات</h2>
+            <h2 class="section-title" data-i18n="galleryTitle">معرض المنتجات</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <div class="gallery-image">
                         <i class="fas fa-image"></i>
                     </div>
-                    <p>ملابس صيفية للأطفال</p>
+                    <p data-i18n="summerClothes">ملابس صيفية للأطفال</p>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image">
                         <i class="fas fa-image"></i>
                     </div>
-                    <p>ملابس شتوية دافئة</p>
+                    <p data-i18n="winterClothes">ملابس شتوية دافئة</p>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image">
                         <i class="fas fa-image"></i>
                     </div>
-                    <p>ملابس رسمية وحفلات</p>
+                    <p data-i18n="formalClothes">ملابس رسمية وحفلات</p>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image">
                         <i class="fas fa-image"></i>
                     </div>
-                    <p>ملابس رياضية نشيطة</p>
+                    <p data-i18n="sportClothes">ملابس رياضية نشيطة</p>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image">
                         <i class="fas fa-image"></i>
                     </div>
-                    <p>ملابس نوم مريحة</p>
+                    <p data-i18n="sleepwear">ملابس نوم مريحة</p>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image">
                         <i class="fas fa-image"></i>
                     </div>
-                    <p>إكسسوارات وملحقات</p>
+                    <p data-i18n="accessories">إكسسوارات وملحقات</p>
                 </div>
             </div>
         </div>
@@ -214,7 +219,7 @@
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials">
         <div class="container">
-            <h2 class="section-title">آراء العملاء</h2>
+            <h2 class="section-title" data-i18n="testimonialsTitle">آراء العملاء</h2>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="stars">
@@ -224,14 +229,14 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"منتجات عالية الجودة وأسعار رائعة جداً. التوصيل كان سريع والفريق متعاون جداً. سأطلب مجدداً بكل تأكيد!"</p>
+                    <p class="testimonial-text" data-i18n="testimonial1">"منتجات عالية الجودة وأسعار رائعة جداً. التوصيل كان سريع والفريق متعاون جداً. سأطلب مجدداً بكل تأكيد!"</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">
                             <i class="fas fa-user"></i>
                         </div>
                         <div>
-                            <p class="author-name">فاطمة محمد</p>
-                            <p class="author-role">صاحبة متجر</p>
+                            <p class="author-name" data-i18n="testimonial1Name">فاطمة محمد</p>
+                            <p class="author-role" data-i18n="testimonial1Role">صاحبة متجر</p>
                         </div>
                     </div>
                 </div>
@@ -243,14 +248,14 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"أفضل سعر للجملة في السوق. الجودة ممتازة والتعامل احترافي جداً. أنصح الجميع بالتعامل معهم."</p>
+                    <p class="testimonial-text" data-i18n="testimonial2">"أفضل سعر للجملة في السوق. الجودة ممتازة والتعامل احترافي جداً. أنصح الجميع بالتعامل معهم."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">
                             <i class="fas fa-user"></i>
                         </div>
                         <div>
-                            <p class="author-name">أحمد علي</p>
-                            <p class="author-role">مستورد</p>
+                            <p class="author-name" data-i18n="testimonial2Name">أحمد علي</p>
+                            <p class="author-role" data-i18n="testimonial2Role">مستورد</p>
                         </div>
                     </div>
                 </div>
@@ -262,14 +267,14 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"خدمة عملاء ممتازة جداً. أجابوا على جميع أسئلتي بسرعة واحترافية. المنتجات تستحق السعر بكل تأكيد."</p>
+                    <p class="testimonial-text" data-i18n="testimonial3">"خدمة عملاء ممتازة جداً. أجابوا على جميع أسئلتي بسرعة واحترافية. المنتجات تستحق السعر بكل تأكيد."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">
                             <i class="fas fa-user"></i>
                         </div>
                         <div>
-                            <p class="author-name">ليلى حسن</p>
-                            <p class="author-role">تاجرة ملابس</p>
+                            <p class="author-name" data-i18n="testimonial3Name">ليلى حسن</p>
+                            <p class="author-role" data-i18n="testimonial3Role">تاجرة ملابس</p>
                         </div>
                     </div>
                 </div>
@@ -280,33 +285,33 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">اتصل بنا</h2>
+            <h2 class="section-title" data-i18n="contactTitle">اتصل بنا</h2>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>معلومات التواصل</h3>
+                    <h3 data-i18n="contactInfo">معلومات التواصل</h3>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
-                            <h4>الهاتف</h4>
+                            <h4 data-i18n="phone">الهاتف</h4>
                             <p>+90 534 966 05 48</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <h4>البريد الإلكتروني</h4>
+                            <h4 data-i18n="email">البريد الإلكتروني</h4>
                             <p>miracollection777@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>الموقع</h4>
-                            <p>اسطنبول، تركيا</p>
+                            <h4 data-i18n="location">الموقع</h4>
+                            <p data-i18n="istanbul">اسطنبول، تركيا</p>
                         </div>
                     </div>
                     <div class="social-links">
-                        <h4>تابعنا على وسائل التواصل</h4>
+                        <h4 data-i18n="followUs">تابعنا على وسائل التواصل</h4>
                         <div class="social-icons">
                             <a href="https://www.facebook.com/miracollection7" target="_blank" title="Facebook">
                                 <i class="fab fa-facebook"></i>
@@ -323,35 +328,37 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">الاسم الكامل</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">البريد الإلكتروني</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">رقم الهاتف</label>
-                        <input type="tel" id="phone" name="phone" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">الموضوع</label>
-                        <select id="subject" name="subject" required>
-                            <option value="">اختر الموضوع</option>
-                            <option value="inquiry">استفسار عام</option>
-                            <option value="wholesale">طلب جملة</option>
-                            <option value="partnership">شراكة تجارية</option>
-                            <option value="other">أخرى</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">الرسالة</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
-                </form>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" data-i18n="fullName">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" required data-i18n-placeholder="fullName">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="emailAddress">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required data-i18n-placeholder="emailAddress">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-i18n="phoneNumber">رقم الهاتف</label>
+                            <input type="tel" id="phone" name="phone" required data-i18n-placeholder="phoneNumber">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" data-i18n="subject">الموضوع</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" data-i18n="selectSubject">اختر الموضوع</option>
+                                <option value="general" data-i18n="generalInquiry">استفسار عام</option>
+                                <option value="bulk" data-i18n="bulkOrder">طلب جملة</option>
+                                <option value="partnership" data-i18n="businessPartnership">شراكة تجارية</option>
+                                <option value="other" data-i18n="other">أخرى</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="message">الرسالة</label>
+                            <textarea id="message" name="message" rows="5" required data-i18n-placeholder="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-i18n="sendMessage">إرسال الرسالة</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -361,31 +368,32 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>عن مجموعة ميرا</h4>
-                    <p>متخصصون في توفير ملابس أطفال عالية الجودة بالجملة من تركيا مباشرة.</p>
+                    <h4 data-i18n="aboutMira">عن مجموعة ميرا</h4>
+                    <p data-i18n="aboutMiraDesc">متخصصون في توفير ملابس أطفال عالية الجودة بالجملة من تركيا مباشرة.</p>
                 </div>
                 <div class="footer-section">
-                    <h4>روابط سريعة</h4>
+                    <h4 data-i18n="quickLinks">روابط سريعة</h4>
                     <ul>
-                        <li><a href="#about">عن العلامة</a></li>
-                        <li><a href="#services">الخدمات</a></li>
-                        <li><a href="#gallery">المعرض</a></li>
-                        <li><a href="#contact">اتصل بنا</a></li>
+                        <li><a href="#about" data-i18n="about">عن العلامة</a></li>
+                        <li><a href="#services" data-i18n="services">الخدمات</a></li>
+                        <li><a href="#gallery" data-i18n="gallery">المعرض</a></li>
+                        <li><a href="#contact" data-i18n="contact">اتصل بنا</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>معلومات التواصل</h4>
-                    <p>البريد: miracollection777@gmail.com</p>
-                    <p>الهاتف: +90 534 966 05 48</p>
-                    <p>الموقع: اسطنبول، تركيا</p>
+                    <h4 data-i18n="contactDetails">معلومات التواصل</h4>
+                    <p data-i18n="email">البريد: miracollection777@gmail.com</p>
+                    <p data-i18n="phone">الهاتف: +90 534 966 05 48</p>
+                    <p data-i18n="istanbul">الموقع: اسطنبول، تركيا</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Mira Collection. جميع الحقوق محفوظة.</p>
+                <p>&copy; 2024 Mira Collection. <span data-i18n="allRightsReserved">جميع الحقوق محفوظة</span>.</p>
             </div>
         </div>
     </footer>
 
+    <script src="translations.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
