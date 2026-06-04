@@ -291,12 +291,12 @@ const translations = {
 
 // Function to get translation
 function t(key, lang = getCurrentLanguage()) {
-  return translations[lang]?.[key] || translations['ar']?.[key] || key;
+  return translations[lang]?.[key] || translations['en']?.[key] || key;
 }
 
 // Function to get current language
 function getCurrentLanguage() {
-  return localStorage.getItem('language') || 'ar';
+  return localStorage.getItem('language') || 'en';
 }
 
 // Function to set language
