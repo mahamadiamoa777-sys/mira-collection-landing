@@ -466,6 +466,18 @@ html[dir="ltr"] .language-selector {
     justify-content: center;
     font-size: 64px;
     color: rgba(24, 119, 242, 0.2);
+    overflow: hidden;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-image img {
+    transform: scale(1.05);
 }
 
 .gallery-item p {
